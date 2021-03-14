@@ -21,3 +21,7 @@ async function connectToDb() {
     console.log("ERROR:", err);
   }
 })();
+
+function getDb() {
+  return db;
+}
